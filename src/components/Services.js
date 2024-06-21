@@ -11,8 +11,9 @@ export const Services = () => {
                 {/* <i className="fa fa-3x fa-user-tie text-primary mb-4"></i> */}
                 <h5>Exquisite Spices</h5>
                 <p>
-                  Exquisitely curated spices embodying natural quality and
-                  flavorful richness.
+                Exquisitely Curated Spices: Capturing natural quality and
+                    flavorful richness, each spice blend is meticulously curated
+                    for a delightful culinary experience.
                 </p>
               </div>
             </div>
@@ -22,8 +23,9 @@ export const Services = () => {
               <div className="p-4">
                 <h5>Modern Agriproducts</h5>
                 <p>
-                  Innovative agriproducts for enhanced farming productivity and
-                  sustainability.
+                Innovative Agriproducts: Boosting farming productivity
+                    sustainably with advanced solutions, blending technology for
+                    efficient, eco-friendly results.
                 </p>
               </div>
             </div>
@@ -33,8 +35,9 @@ export const Services = () => {
               <div className="p-4">
                 <h5>Healthful Edible Oils</h5>
                 <p>
-                  Pure and nourishing edible oils for a healthier lifestyle,
-                  rich in essential nutrients and natural goodness.
+                Pure and Nourishing Edible Oils: Elevating your lifestyle
+                    with wholesome oils, packed with essential nutrients and
+                    pure natural goodness for a healthier you.
                 </p>
               </div>
             </div>

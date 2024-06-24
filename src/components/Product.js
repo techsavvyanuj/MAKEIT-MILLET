@@ -60,9 +60,6 @@ const Product = () => {
                       </div>
                     )}
                     <div className="card-body">
-                      {/* <h5 className="d-flex justify-content-between border-bottom pb-2">
-                        <span>{product.caption.split(' ')[0]}</span>
-                      </h5> */}
                       <p className="card-text">
                         {expandedId === product._id
                           ? product.caption

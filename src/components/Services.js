@@ -11,9 +11,9 @@ export const Services = () => {
                 {/* <i className="fa fa-3x fa-user-tie text-primary mb-4"></i> */}
                 <h5>Exquisite Spices</h5>
                 <p>
-                Exquisitely Curated Spices: Capturing natural quality and
-                    flavorful richness, each spice blend is meticulously curated
-                    for a delightful culinary experience.
+                  Exquisitely Curated Spices: Capturing natural quality and
+                  flavorful richness, each spice blend is meticulously curated
+                  for a delightful culinary experience.
                 </p>
               </div>
             </div>
@@ -21,11 +21,11 @@ export const Services = () => {
           <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="service-item rounded pt-3">
               <div className="p-4">
-                <h5>Modern Agriproducts</h5>
+                <h5>Indian Agriproducts</h5>
                 <p>
-                Innovative Agriproducts: Boosting farming productivity
-                    sustainably with advanced solutions, blending technology for
-                    efficient, eco-friendly results.
+                  Innovative Agriproducts: Boosting farming productivity
+                  sustainably with advanced solutions, blending technology for
+                  efficient, eco-friendly results.
                 </p>
               </div>
             </div>
@@ -35,9 +35,9 @@ export const Services = () => {
               <div className="p-4">
                 <h5>Healthful Edible Oils</h5>
                 <p>
-                Pure and Nourishing Edible Oils: Elevating your lifestyle
-                    with wholesome oils, packed with essential nutrients and
-                    pure natural goodness for a healthier you.
+                  Pure and Nourishing Edible Oils: Elevating your lifestyle with
+                  wholesome oils, packed with essential nutrients and pure
+                  natural goodness for a healthier you.
                 </p>
               </div>
             </div>
@@ -75,20 +75,17 @@ export const Services = () => {
           </p>
         </div>
         <div className="box service-item">
-          <h3>Modern Agriproducts</h3>
+          <h3>Indian Agriproducts</h3>
           <p className="p-text">
-            Modern agriproducts encompass a wide range of innovative
-            agricultural goods designed to enhance productivity and
-            sustainability. These include high-yield seeds, organic fertilizers,
-            advanced irrigation systems, and precision farming tools. By
-            integrating technology, such as drones and AI, modern agriproducts
-            optimize crop management and reduce environmental impact. They cater
-            to the growing demand for sustainable and efficient farming
-            practices, ensuring food security and quality. Suitable for both
-            large-scale farms and smallholders, these products contribute to
-            higher yields, improved soil health, and better resource management,
-            transforming traditional agriculture into a more efficient and
-            eco-friendly industry.
+            Innovative Agriproducts is at the forefront of boosting farming
+            productivity sustainably. We leverage cutting-edge technology to
+            deliver advanced solutions that increase efficiency while minimizing
+            environmental impact. Our eco-friendly methods ensure a greener
+            future for agriculture. By integrating precision farming, smart
+            irrigation, and sustainable practices, we help farmers achieve
+            higher yields with less resource usage. Our commitment to innovation
+            and sustainability transforms agriculture into a more efficient and
+            environmentally responsible industry.
           </p>
         </div>
         <div className="box service-item">
@@ -108,19 +105,18 @@ export const Services = () => {
           </p>
         </div>
         <div className="box service-item">
-          <h3>Cold-pressed</h3>
+          <h3>Handicraft Products</h3>
           <p className="p-text">
-            Cold-pressed oils are extracted from seeds or fruits without using
-            heat, preserving their natural nutrients and flavors. This method
-            ensures oils retain essential fatty acids, antioxidants, and
-            vitamins, offering significant health benefits. Popular cold-pressed
-            oils include olive, coconut, and sesame, each known for its unique
-            nutritional profile. These oils are ideal for cooking, baking, and
-            dressings due to their rich taste and high quality. Cold-pressed
-            oils support heart health, improve digestion, and enhance skin
-            health. They are also free from harmful chemicals and additives.
-            Incorporating cold-pressed oils into your diet promotes a natural
-            and healthy lifestyle.
+            Indian Handicrafts showcase exquisite, handcrafted items made by
+            skilled artisans, reflecting the rich cultural heritage and
+            craftsmanship of India. Each piece tells a unique story, embodying
+            centuries-old traditions and techniques. From intricate textiles to
+            detailed metalwork, Indian Handicrafts offer a diverse array of
+            products. These creations not only preserve the cultural legacy but
+            also support local artisans and their communities. The vibrant
+            artistry found in Indian Handicrafts brings the beauty and history
+            of India into homes around the world. Embrace the elegance and
+            tradition of Indian craftsmanship with every piece.
           </p>
         </div>
       </div>

@@ -9,7 +9,7 @@ export const Services = () => {
             <div className="service-item rounded pt-3">
               <div className="p-4">
                 {/* <i className="fa fa-3x fa-user-tie text-primary mb-4"></i> */}
-                <h5>Exquisite Spicess</h5>
+                <h5>Exquisite Spices</h5>
                 <p>
                   Exquisitely Curated Spices: Capturing natural quality and
                   flavorful richness, each spice blend is meticulously curated

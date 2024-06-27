@@ -43,7 +43,7 @@ export const Footer = () => {
                 <i className="fa fa-phone-alt me-3"></i>+91 7898346430
               </p>
               <p className="mb-2">
-                <i className="fa fa-envelope me-3"></i>info@example.com
+                <i className="fa fa-envelope me-3"></i>info@prashilexports.com
               </p>
               <div className="social-container pt-2">
                 <Link className="btn btn-outline-light social-btn" to="">

@@ -8,6 +8,37 @@ export const About = () => {
       setShowMore(!showmore)
     }
 
+  const shortContent = (
+    <>
+      <p className="mb-4">
+        <strong>Rooted in Tradition. Growing with Trust.</strong>
+      </p>
+      <p className="mb-4">
+        Since 1999, our journey has been deeply intertwined with the golden grains and now millets, grown in the rich soils of Madhya Pradesh.
+      </p>
+    </>
+  );
+
+  const fullContent = (
+    <>
+      <p className="mb-4">
+        <strong>Rooted in Tradition. Growing with Trust.</strong>
+      </p>
+      <p className="mb-4">
+        Since 1999, our journey has been deeply intertwined with the golden grains and now millets, grown in the rich soils of Madhya Pradesh. At PARAJ INDUSTRIES Pvt. Ltd. we don’t just supply millets — we nurture them from the root, ensuring every grain tells a story of purity, health, and heritage.
+      </p>
+      <p className="mb-4">
+        What began as a humble effort over two decades ago has today become a trusted name in the world of grains. Our fields are not just farms — they’re a promise. A promise of wholesome nutrition, unmatched quality, and a deep respect for natural farming practices.
+      </p>
+      <p className="mb-4">
+        We believe in feeding the world with what’s real. No shortcuts. No compromises. Just honest grains grown the way nature intended — right from the heart of India.
+      </p>
+      <p className="mb-4">
+        Welcome to our world. Welcome to the future of food — rooted in the past, made for today.
+      </p>
+    </>
+  );
+
   return (
     <div className="container-xxl py-5">
       <div className="container">
@@ -16,31 +47,31 @@ export const About = () => {
             <div className="row g-3">
               <div className="col-6 text-start">
                 <img
-                  className="img-fluid rounded w-100 wow zoomIn"
+                  className="img-fluid rounded w-75 wow zoomIn"
                   data-wow-delay="0.1s"
-                  src="img/mix-organic-seeds-food-powder.jpg"
+                  src="img/image1.jpeg"
                 />
               </div>
               <div className="col-6 text-start">
                 <img
-                  className="img-fluid rounded w-75 wow zoomIn"
+                  className="img-fluid rounded w-50 wow zoomIn"
                   data-wow-delay="0.3s"
-                  src="img/rawoil.jpg"
+                  src="img/image2.jpeg"
                   style={{ margintop: "25%" }}
                 />
               </div>
               <div className="col-6 text-end">
                 <img
-                  className="img-fluid rounded w-75 wow zoomIn"
+                  className="img-fluid rounded w-52 wow zoomIn"
                   data-wow-delay="0.5s"
-                  src="img/pexels-angele-j-35172-128402.jpg"
+                  src="img/image3.jpeg"
                 />
               </div>
               <div className="col-6 text-end">
                 <img
-                  className="img-fluid rounded w-100 wow zoomIn"
+                  className="img-fluid rounded w-75 wow zoomIn"
                   data-wow-delay="0.7s"
-                  src="img/pexels-quang-nguyen-vinh-222549-2162943.jpg"
+                  src="img/image4.jpeg"
                 />
               </div>
             </div>
@@ -49,36 +80,10 @@ export const About = () => {
             <h5 className="section-title ff-secondary text-start text-primary fw-normal">
               About Us
             </h5>
-            <h1 className="mb-4">Welcome to Prashil Exports</h1>
-            <p className="mb-4">
-              <h3 className="mb-2">VISION</h3>
-              To be a leading, most trusted, reliable International Trading Company adding Sustainable Value to Stakeholders.
-            </p>
-            <p className="mb-4">
-            <h3 className="mb-2"> MISSION</h3>
-            Focused on being the leading International Trading Company with the intention to serve as an effective and socially responsible company. To provide integrated trade solutions to our customers to ensure sustainable growth and profits.
-            </p>
-            {showmore && (
-              <div>
-            <h3 className="mb-2">CORE VALUES</h3>
-            <ul>
-              <li>
-              <span>Team Work:</span><br/> Team work is the core of our working culture. We believe that when everyone is working together towards a goal, then success take care of itself.
-              </li>
-              <li>
-              <span>	Transparency and Accountability: </span><br/> Our team says greater the degree of transparency, greater the level of good management. And with good management comes accountability towards work.
-              </li>
-              <li>
-              <span>	Integrity:  </span><br/> We care about our relationships and contributions to our company, communities and Industries we serve. We strive to do the right thing needed to maintain quality of work.
-              </li>
-              <li>
-              <span>	Commitment:   </span><br/> Everyone in our team is fully committed towards their job and work, we reaches further towards our commitment for societies, communities and countries in which we work. Our team takes a special foot ahead in keeping up the said commitments.
-              </li>
-            </ul>
-            </div>
-            )}
+            <h1 className="mb-4">Welcome to Makeit Millet</h1>
+            {showmore ? fullContent : shortContent}
             <Link className="btn btn-primary py-3 px-5 mt-2" to="" onClick={handleReadMore} >
-            {showmore ? "Read Less" :"Read More"}
+              {showmore ? "Read Less" : "Read More"}
             </Link>
           </div>
         </div>

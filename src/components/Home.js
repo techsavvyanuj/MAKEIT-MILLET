@@ -1,6 +1,6 @@
 import React from "react";
 import { About } from "./About";
-import { Services } from "./Services";
+
 import Product from "./Product";
 import { Link, useNavigate } from "react-router-dom";
 import { PhotoUpload } from "../dashboard/PhotoUpload";
@@ -13,7 +13,7 @@ export const Home = () => {
   };
 
   const navigateToService = () => {
-    navigate("/service");
+    navigate("/shop");
   };
 
   return (
@@ -34,8 +34,7 @@ export const Home = () => {
                 Explore the Essence of India:
               </h1>
               <p className="text-white animated slideInLeft mb-4 pb-2">
-                Indian Spices, Indian Wooden Cold Pressed Oils, Indian
-                Agricultural Products and Indian Handicrafts
+                We believe in feeding the world with what’s real. No shortcuts. No compromises. Just honest grains grown the way nature intended — right from the heart of India.
               </p>
               <button
                 onClick={navigation}
@@ -65,11 +64,9 @@ export const Home = () => {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <h5>Exquisite Spices</h5>
+                  <h5>Sun-Kissed Fields</h5>
                   <p>
-                    Exquisitely Curated Spices: Capturing natural quality and
-                    flavorful richness, each spice blend is meticulously curated
-                    for a delightful culinary experience.
+                    Our millets thrive in natural, open fields. They are nourished by sunlight and fertile soil.
                   </p>
                 </div>
               </div>
@@ -81,11 +78,11 @@ export const Home = () => {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <h5>Indian Agriproducts</h5>
+                  <h5>Sustainable Farming</h5>
                   <p>
-                    Innovative Agriproducts: Boosting farming productivity
-                    sustainably with advanced solutions, blending technology for
-                    efficient, eco-friendly results.
+                    We use eco-friendly methods.
+This protects the environment and ensures superior grain quality. 
+
                   </p>
                 </div>
               </div>
@@ -97,11 +94,9 @@ export const Home = () => {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <h5>Healthful Edible Oils</h5>
+                  <h5>Nutrient-Rich Grains</h5>
                   <p>
-                    Pure and Nourishing Edible Oils: Elevating your lifestyle
-                    with wholesome oils, packed with essential nutrients and
-                    pure natural goodness for a healthier you.
+                    Each grain is packed with essential vitamins. Millets offer minerals and fiber for optimal health
                   </p>
                 </div>
               </div>
@@ -113,12 +108,11 @@ export const Home = () => {
             >
               <div className="service-item rounded pt-3">
                 <div className="p-4">
-                  <h5>Handicraft Products</h5>
+                  <h5>Quality Certified</h5>
 
                   <p>
-                    Indian Handicrafts: Exquisite, handcrafted items made by
-                    skilled artisans, reflecting India's rich cultural heritage
-                    and craftsmanship.
+                    Our products meet rigorous quality standards. We are committed to excellence and
+purity.
                   </p>
                 </div>
               </div>

@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 const products = [
   {
     id: 1,
-    name: "Chili",
-    description: "Chili products include dried chili flakes, chili powder...",
+    name: "Premium KODO MILLETS",
+    description: "Simple clean packaging; fiber-rich, organic, supporting healthy...",
     fullDescription:
-      "Chili products include dried chili flakes, chili powder, chili paste, hot sauces, and chili-infused oils. These products are used in various recipes to add spiciness and flavor. Hot sauces, in particular, come in a wide range of heat levels to cater to different preferences.",
-    image: "img/pexels-pixabay-39390.jpg",
+      "Simple clean packaging; fiber-rich, organic, supporting healthy digestion & weight management..",
+    image: "img/image1.jpeg",
   },
   {
     id: 2,
-    name: "Turmeric",
-    description: "The most common form of turmeric used in cooking is its...",
+    name: "MAKEIT KODO MILLET",
+    description: "Gluten‑free, weight‑friendly, aids digestion, supports heart ...",
     fullDescription:
-      "The most common form of turmeric used in cooking is its ground powder. Turmeric powder is made by drying and grinding the rhizomes (underground stems) of the turmeric plant. It has a bright yellow color and a warm, slightly bitter taste.",
-    image: "img/pexels-martabranco-1340116.jpg",
+      "Gluten‑free, weight‑friendly, aids digestion, supports heart and nervous system health.",
+    image: "img/image2.jpeg",
   },
   // {
   //   id: 3,
@@ -30,21 +30,21 @@ const products = [
   // },
   {
     id: 4,
-    name: "Ginger",
+    name: "MAKEIT MILLET",
     description:
-      "Ginger is a flowering plant belonging to the Zingiberaceae family...",
+      "Entire grain retained—leaving bran and germ intact—for maximum fiber...",
     fullDescription:
-      "Ginger is a flowering plant belonging to the Zingiberaceae family, which also includes turmeric, cardamom, and galangal. Here are some key points about ginger...",
-    image: "img/pexels-pixabay-161556.jpg",
+      "Entire grain retained—leaving bran and germ intact—for maximum fiber, micronutrients, and antioxidants.",
+    image: "img/image3.jpeg",
   },
   {
     id: 5,
-    name: "Garlic",
+    name: "MAKEIT MILLET",
     description:
-      "Garlic is a species in the onion genus, Allium, and is closely related to onions...",
+      "Entire grain retained—leaving bran and germ intact—for maximum fiber...",
     fullDescription:
-      "Garlic is a species in the onion genus, Allium, and is closely related to onions, shallots, leeks, and chives. Here are some key points about garlic...",
-    image: "img/pexels-isabella-mendes-107313-928251.jpg",
+      "Entire grain retained—leaving bran and germ intact—for maximum fiber, micronutrients, and antioxidants.",
+    image: "img/image3.jpeg",
   },
   {
     id: 6,
@@ -173,29 +173,29 @@ export const PhotoUpload = () => {
   };
 
 
+  // Only show the first three products
+  const topProducts = products.slice(0, 3);
+
   return (
     <div className="container-xxl py-2">
       <div className="container">
         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h5 className="section-title ff-secondary text-center text-primary fw-normal">
-          Popular Choice
+            Popular Choice
           </h5>
           <h1 className="mb-5">Most Popular Product</h1>
         </div>
-        <div
-          className="tab-className text-center wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
+        <div className="tab-className text-center wow fadeInUp" data-wow-delay="0.1s">
           <div className="tab-content">
             <div className="row g-4">
-              {products.map((product) => (
+              {topProducts.map((product) => (
                 <div key={product.id} className="col-lg-6">
                   <div className="d-flex align-items-center">
                     <img
                       className="flex-shrink-0 img-fluid rounded"
                       src={product.image}
                       alt={product.name}
-                      style={{ width: "100px", height:"100px" }}
+                      style={{ width: "100px", height: "100px" }}
                     />
                     <div className="w-100 d-flex flex-column text-start ps-4">
                       <h5 className="d-flex justify-content-between border-bottom pb-2">
@@ -207,15 +207,9 @@ export const PhotoUpload = () => {
                         <p>{product.description}</p>
                       )}
                       <button
-                        className={`btn btn-${
-                          expandedId === product.id ? "secondary" : "primary"
-                        }`}
+                        className={`btn btn-${expandedId === product.id ? "secondary" : "primary"}`}
                         onClick={() => handleReadMore(product.id)}
-                        style={{
-                          padding: "6px 1px",
-                          fontSize: "14px",
-                          width: "120px",
-                        }}
+                        style={{ padding: "6px 1px", fontSize: "14px", width: "120px" }}
                       >
                         {expandedId === product.id ? "Show Less" : "Read More"}
                       </button>

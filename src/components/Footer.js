@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ScrollToTop from "./ScrollTop";
+
 
 export const Footer = () => {
   return (
@@ -9,23 +9,29 @@ export const Footer = () => {
         className="container-fluid bg-dark text-light footer  mt-5 wow fadeIn"
         data-wow-delay="0.1s"
       >
+   
         <div className="container py-5">
           <div className="row g-5">
+            <img
+                  src="/img/logomi.png"
+                  alt="Company Logo"
+                  style={{ maxWidth: "250px", height: "250px", objectFit: "contain", marginTop: "1px" }}
+                />
             <div className="col-lg-3 col-md-6">
-              <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">
-                Company
-              </h4>
+              
+              <div className="d-flex align-items-center mb-4">
+                <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-0 me-2">
+                  Company
+                </h4>
+              </div>
               <Link className="btn btn-link" to="/about">
                 About Us
               </Link>
               <Link className="btn btn-link" to="/contact">
                 Contact Us
               </Link>
-              <Link className="btn btn-link" to="/segments">
-                Segments
-              </Link>
-              <Link className="btn btn-link" to="/product">
-                Product
+              <Link className="btn btn-link" to="/shop">
+                Shop
               </Link>
               <Link className="btn btn-link" to="/login">
                 Admin Pannel
@@ -69,7 +75,7 @@ export const Footer = () => {
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 Copyright © 2024 &nbsp;
                 <Link className="" to="/">
-                  Prashil Exports&nbsp;
+                  MAKEIT MILLET&nbsp;
                 </Link>
                 All Right Reserved.
               </div>
@@ -88,7 +94,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <ScrollToTop />
+
     </>
   );
 };
